@@ -1,0 +1,155 @@
+.sum{
+    width: 1140px;
+    height: 1370px;
+    margin: auto;
+}
+.logo img{
+    width: 300px;
+    height: 50px;
+    float: left;
+
+}
+.container{
+    max-width:1140px ;
+    margin: 0px auto;
+    height: 50px;
+}
+.menu{
+    background-color: black;
+    height: 50px;
+    width: 840px;
+}
+.header-img{
+    width: 840px;
+    height: 300px;
+}
+.main-menu{
+    display: flex;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+.main-menu li a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+/*.header{*/
+/*    width: 800px;*/
+/*    height: 300px;*/
+/*}*/
+/*.text{*/
+/*    width: 800px;*/
+/*    height: 20px;*/
+/*    text-align: center;*/
+/*    color: blue;*/
+/*}*/
+/*.body{*/
+/*    width: 800px;*/
+/*    height: 830px;*/
+/*}*/
+
+/*.footer{*/
+/*    width: 800px;*/
+/*    height: 100px;*/
+/*    background-color: black;*/
+/*    color: white;*/
+
+/*}*/
+/*.footer-left{*/
+/*    width: 400px;*/
+/*    height: 100px;*/
+/*    float: left;*/
+
+/*}*/
+/*.footer-right p{*/
+/*    width: 400px;*/
+/*    height: 100px;*/
+/*    float: left;*/
+
+
+
+/*}*/
+/*.left{*/
+/*    width: 250px;*/
+/*    height: 830px;*/
+/*    float: left;*/
+
+/*}*/
+/*.center{*/
+/*    width: 250px;*/
+/*    height: 830px;*/
+/*    float: left;*/
+
+/*}*/
+/*.right {*/
+/*    width: 250px;*/
+/*    height: 830px;*/
+/*    float: right;*/
+/*}*/
+/*.body p{*/
+/*    text-align: center;*/
+/*    color: red;*/
+/*}*/
+/*.body img{*/
+
+/*}*/
+/*.menu ul li {*/
+/*    word-spacing: 5px;*/
+/*}*/
+.productContent {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:10px 50px;
+    width: 1040px;
+    height: 1100px;
+}
+.product {
+    width: 283px;
+    /*padding: 20px 20px 20px;*/
+    border: 1px solid #dddddd;
+    cursor: pointer;
+}
+.product img {
+    width: 240px;
+    height: 165px;
+
+}
+.product a {
+    text-decoration: line-through;
+}
+.product span {
+    font-size: 12px;
+}
+#displayProduct {
+    display: flex;
+    flex-wrap: wrap;
+}
+#displayProduct li {
+    list-style: none;
+}
+.product button i {
+    width: 50px;
+    height: 30px;
+    padding-top: 5px;
+    font-size: 20px;
+    color: #090190;
+    background: #f9cdcd;
+    border: none;
+}
+.productText li {
+   text-align: left;
+    color: red;
+}
+.carProduct{
+    width: 1140px;
+    height: 1100px;
+}
+
+
+
+
