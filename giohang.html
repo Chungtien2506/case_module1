@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Thông tin sản phẩm</h1>
+<img id="imgPro" src="">
+<h2 id="proName"></h2>
+<p id="proPrice"></p>
+
+<form id="checkout-form">
+    <input type="hidden" name="proName" id="product-name-input">
+    <input type="hidden" name="proPrice" id="product-price-input">
+    <button type="submit">Thanh toán</button>
+    <button type="submit">Thêm</button>
+    <button type="submit">Sửa </button>
+    <button type="submit">Xóa</button>
+</form>
+<script>
+        // Lấy thông tin sản phẩm từ URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const productName = urlParams.get('proName');
+        const productPrice = urlParams.get('proPrice');
+        const productImage = urlParams.get('imgPro');
+
+        // Hiển thị thông tin sản phẩm trên trang thanh toán
+        const productImageElement = document.querySelector('#imgPro');
+        productImageElement.src = productImage;
+
+        const productNameElement = document.querySelector('#proName');
+        productNameElement.textContent = productName;
+
+        const productPriceElement = document.querySelector('#proPrice');
+        productPriceElement.textContent = productPrice;
+
+        // Điền giá trị vào các input hidden
+        const productNameInput = document.querySelector('#product-name-input');
+        productNameInput.value = productName;
+
+        const productPriceInput = document.querySelector('#product-price-input');
+        productPriceInput.value = productPrice;
+
+
+</script>
+</body>
+
+</html>
